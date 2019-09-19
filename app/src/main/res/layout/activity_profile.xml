@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ProfileActivity">
+
+    <EditText
+        android:id="@+id/edtname"
+        android:hint="enter your name"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtfamily"
+        android:hint="enter your family"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edtage"
+        android:hint="enter your age"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="textWebEmailAddress"
+        android:id="@+id/edtmail"
+        android:hint="enter your mail"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="preview"
+        android:id="@+id/btnpreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
